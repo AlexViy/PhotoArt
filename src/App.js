@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Components/Header';
+import SmallRectangle from './Rectangle.png';
 import './App.css';
 
 class App extends Component {
@@ -36,33 +37,36 @@ class App extends Component {
           <div className="SplitLine"></div>
 
           <div className="Categories">
-            <div className="SportPhoto">
+            <div className="CategItem">
               <h4>Sport photography</h4>
-              <img src="http://via.placeholder.com/300x150"></img>
+              <img src='http://placekitten.com/g/600/300'></img>
             </div>
-            <div className="WedPhoto">
+            <div className="CategItem">
               <h4>Wedding photography</h4>
-              <img src="http://via.placeholder.com/300x150"></img>
+              <img src='http://placekitten.com/g/600/300'></img>
             </div>
-            <div className="ActivePhoto">
+            <div className="CategItem">
               <h4>Active photography</h4>
-              <img src="http://via.placeholder.com/300x150"></img>
+              <img src='http://placekitten.com/g/600/300'></img>
             </div>
           </div>
           </main>
-          <div className="Footer">
+
+          <footer className="Footer">
             <div className="FooterTitle">
               <h4>Find what you want fast</h4>
-              <div>
+            </div>
+            <div className="FooterContent">
+              <div className="BlogLatest">
                 <h4>Latest from the blog</h4>
                 <h5>SnoWalking</h5>
                 <h6>Posted by admin on 00/00/0000</h6>
-                <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.
-
-Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet</p>
-                <button>Read more</button>
+                <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet</p>
+                <div className="ReadMore">
+                  <a href="#">Read more</a>
+                </div>
               </div>
-              <div>
+              <div className="QuickLinks">
                 <h4>Quick links</h4>
                 <ul>
                   <li><a href="#">Link text here</a></li>
@@ -88,7 +92,7 @@ Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae 
                 Email:
                 <li>contact@mydomain.com</li>              
               </div>
-              <div>
+              <div className="Social">
                 <h4>Keep up to date</h4>
                 <ul>
                   <li>Facebook</li>
@@ -97,12 +101,12 @@ Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae 
                   <li>RSS Feed</li>
                 </ul>                
               </div>
+            </div>
               <div>
                 <div>Copyright @ 2018 - All rights reserved - Domain name</div>
                 <div>Template by OS Templates</div>
               </div>
-          </div>
-        </div>
+        </footer>
       </div>
   </div>
   );

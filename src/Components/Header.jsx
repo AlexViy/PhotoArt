@@ -14,9 +14,9 @@ function Header() {
         <div className="LogoTitle"></div>
       </div>
       <div className="SearchContainer">
-        <div><input className="SearchInput" type="text" size="43"></input></div>
+        <div><input className="SearchInput" type="text" size="37"></input></div>
         <div className="SearchIcon">
-          <FontAwesomeIcon icon='search' />
+          <FontAwesomeIcon  icon='search' />
         </div>
       </div>
     </div>
