@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from './Components/Header';
 import './App.css';
 
 class App extends Component {
@@ -14,26 +15,7 @@ class App extends Component {
               <li>Suspendisse</li>
             </ul>            
           </div>
-          <div className="Header">
-            <div className="Logo">
-              <div className="PhotoArtImg">PhotoArt</div>
-                <p>Free PSD Website Template</p>
-              <div className="LogoTitle"></div>
-            </div>
-            <div className="Searchbar"></div>              
-            <div className="Navigation">
-              <nav className="Nav">
-                <ul>
-                  <li>Homepage</li>
-                  <li>Style demo</li>
-                  <li>Full width</li>
-                  <li>Dropdown</li>
-                  <li>Gallery</li>
-                  <li>Portfolio</li>                                  
-                </ul>
-              </nav>
-            </div>
-          </div>
+          <Header/>
           <div className="Intro">
             <div className="IntroNav">
             &#9664; &#9654; 
