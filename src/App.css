@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+.App {
+  color: white;
+  background-color: black;
+}
+
+.TopBar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 19px 0 0; 
+}
+
+.TopBarNav {
+  border: 1px solid white;
+  padding: 8px 0 8px 0;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  margin-bottom: 0; 
+}
+
+.TopBarNav li {
+  display: inline;
+  padding: 9px;
+} 
+
+.Header {
+  background: darkgrey;
+}
+
+.Intro {
+  margin: 0 19px 0 19px;
+}
+
+.Categories {
+  margin: 0 19px 0 19px;
+}
