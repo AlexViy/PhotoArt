@@ -1,207 +1,169 @@
-body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 0;
-  margin: 0;
-}
-
 .App {
   color: #fff;
-  background-color: #000;
-}
+  background-color: #000; }
 
 .BlogLatest {
-  width: 265px;
-}
+  width: 265px; }
+
 .Categories {
-  display: flex;
-}
+  display: flex; }
+
 .CategItem:nth-child(2) {
-  margin: 0 20px;
-}
+  margin: 0 20px; }
+
 .CategItem h4 {
   background: #141414;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
-  border-bottom: 1px solid #000;
-}
+  border-bottom: 1px solid #000; }
 
 .CategItem img {
-  width: 100%;
-}
+  width: 100%; }
 
 .Footer {
-  background: #1c1c1c;
-}
+  background: #1c1c1c; }
+
 .FooterTitle h4 {
   background: #141414;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
-  border-bottom: 1px solid #000;
-}
+  border-bottom: 1px solid #000; }
 
 .FooterContent {
   padding: 0 19px;
-  display: flex;
-}
+  display: flex; }
 
 .TopBar {
   display: flex;
-  justify-content: flex-end;  
-}
+  justify-content: flex-end; }
 
 .TopBarNav {
   padding: 8px 0 8px 0;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   margin: 9px 19px 1px 0;
-  background:  rgb(17, 17, 17);
-}
-
-.TopBarNav li {
-  display: inline;
-  padding: 9px;
-  font-size: 12px;
-  line-height: 12px;
-  color: rgb(79,79,79);
-  font-family: "Verdana";
-} 
-
-.Header {
-  background: rgb(41, 40, 40);
-  padding: 19px;
-}
+  background: #111111; }
+  .TopBarNav li {
+    display: inline;
+    padding: 9px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #4f4f4f; }
 
 .LogoSearch {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
+  align-items: center; }
 
 .PhotoArtLogo {
   font-size: 32px;
   line-height: 38px;
-  color: rgb(153,153,153);
-  font-family: "Georgia";
-}
+  color: #999999; }
 
 .QuickLinks {
   width: 200px;
-  margin-left: 33px;
-}
-.QuickLinks ul {
-  padding: 0;
-}
-.QuickLinks li {
-  font-size: 13px;
-  font-weight: 100;
-  padding: 13px 0 10px;
-  text-decoration: none;
-  list-style: none;
-  border-bottom: 1px solid #454545;
-}
-.QuickLinks a {
-  text-decoration: none;
-  color: khaki;
-}
+  margin-left: 33px; }
+  .QuickLinks ul {
+    padding: 0; }
+  .QuickLinks li {
+    font-size: 13px;
+    font-weight: 100;
+    padding: 13px 0 10px;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px solid #454545; }
+  .QuickLinks a {
+    text-decoration: none;
+    color: khaki; }
+
 .spanLogo {
   font-size: 12px;
   line-height: 14px;
-  color: rgb(153,153,153);
-  font-family: "Georgia";
-}
+  color: #999; }
 
 .SearchContainer {
-  position: relative;
-}
+  position: relative; }
 
 .SearchInput {
   background: #333;
-  border: 1px solid #454545;
-}
+  border: 1px solid #454545; }
 
 .SearchIcon {
   position: absolute;
   top: 2px;
-  right: 8px;
-}
+  right: 8px; }
 
 .Social {
-  margin-left: 33px;
-}
-
-.Social ul {
-  padding: 13px 0 10px;
-}
-
-.Social  li {
-  font-size: 13px;
-  font-weight: 100;
-  padding: 13px 0 10px;
-  text-decoration: none;
-  list-style: none;
-  border-bottom: 1px solid #454545;
-  color: khaki;
-}
+  margin-left: 33px; }
+  .Social ul {
+    padding: 13px 0 10px; }
+  .Social li {
+    font-size: 13px;
+    font-weight: 100;
+    padding: 13px 0 10px;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px solid #454545;
+    color: khaki; }
 
 .Navigation {
-  margin-top: 40px;
-}
+  margin-top: 40px; }
 
 .Main {
-  padding: 40px 19px;
-}
+  padding: 40px 19px; }
 
 .SplitLine {
   margin-top: 37px;
   height: 11px;
   width: 100%;
-  background: #111;
-}
+  background: #111; }
+
+.Header {
+  background: #1c1c1c;
+  padding: 19px; }
 
 .HeaderNav {
   cursor: pointer;
-  display: flex;  
+  display: flex;
   list-style-type: none;
-  padding-left: 0;
-}
-
-.HeaderNav :last-child {
-  flex-grow: 2;
-}
+  padding-left: 0; }
+  .HeaderNav :last-child {
+    flex-grow: 2; }
 
 .ReadMore {
-  text-align: right;
-}
-
-.ReadMore a {
-  text-decoration: none;  
-}
+  text-align: right; }
+  .ReadMore a {
+    text-decoration: none; }
 
 .HeaderNav li {
   text-transform: uppercase;
   margin-left: 1px;
-  background: rgb(1c, 1c, 1c);
-  padding: 10px;
-}
+  font-size: 13px;
+  color: #999999;
+  background: #333333;
+  padding: 10px; }
 
 .HeaderNav :hover {
   color: #fff;
-  background: #000;
-}
+  background: #000; }
 
 .Intro {
-  display: flex;
-}
+  display: flex; }
 
 .SlideText {
   background: #1a1514;
   padding: 25px;
   width: 300px;
   flex-shrink: 0;
-}
+  color: white;
+  font-size: 16px;
+  color: white; }
+
+.SlideTitle {
+  font-size: 36px;
+  color: white; }
 
 .SlideImage img {
-  width: 100%;
-}
+  width: 100%; }
