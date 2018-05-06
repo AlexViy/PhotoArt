@@ -3,7 +3,6 @@ body {
   margin: 0;
 }
 
-
 .App {
   color: white;
   background-color: black;
@@ -11,16 +10,15 @@ body {
 
 .TopBar {
   display: flex;
-  justify-content: flex-end;
-  margin: 0 19px 0 0; 
+  justify-content: flex-end;  
 }
 
 .TopBarNav {
-  border: 1px solid white;
   padding: 8px 0 8px 0;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
-  margin-bottom: 0; 
+  margin: 9px 19px 1px 0;
+  background:  rgb(41, 40, 40);
 }
 
 .TopBarNav li {
@@ -29,7 +27,56 @@ body {
 } 
 
 .Header {
-  background: darkgrey;
+  background: rgb(41, 40, 40);
+}
+
+.LogoSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  margin: 24px 0 36px 19px;
+}
+
+.spanLogo {
+  font-size: smaller;
+}
+
+.SearchContainer {
+  position: relative;
+  margin-right: 19px;
+}
+
+.SearchInput {
+  background: rgb(83, 76, 76);
+}
+
+.SearchIcon {
+  position: absolute;
+  top: 2px;
+  right: 8px;
+}
+
+
+.HeaderNav {
+  cursor: pointer;
+  display: flex;  
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 19px;
+}
+
+.HeaderNav :last-child {
+  flex-grow: 2;
+}
+
+.HeaderNav li {
+  text-transform: uppercase;
+  margin-left: 1px;
+  background: rgb(83, 76, 76);
+  padding: 10px;
 }
 
 .Intro {
