@@ -16,15 +16,25 @@ class App extends Component {
             </ul>            
           </div>
           <Header/>
+          <main className='Main'>
           <div className="Intro">
-            <div className="IntroNav">
-            &#9664; &#9654; 
+          
+            <div className="SlideText">
+              <div className="IntroNav"> &#9664; &#9654; </div>
+              <h1>Boating</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div className="ReadMore">
+                <a href="#">Read more</a>
+              </div>
             </div>
-            <h1>Boating</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button>Read more</button>
-            <img src="http://via.placeholder.com/960x450"></img>
+            <div className="SlideImage">
+              <img src="http://via.placeholder.com/960x450"></img>
+            </div>
+          
           </div>
+          
+          <div className="SplitLine"></div>
+
           <div className="Categories">
             <div className="SportPhoto">
               <h4>Sport photography</h4>
@@ -39,6 +49,7 @@ class App extends Component {
               <img src="http://via.placeholder.com/300x150"></img>
             </div>
           </div>
+          </main>
           <div className="Footer">
             <div className="FooterTitle">
               <h4>Find what you want fast</h4>

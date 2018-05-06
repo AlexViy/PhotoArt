@@ -4,8 +4,8 @@ body {
 }
 
 .App {
-  color: white;
-  background-color: black;
+  color: #fff;
+  background-color: #000;
 }
 
 .TopBar {
@@ -18,7 +18,7 @@ body {
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   margin: 9px 19px 1px 0;
-  background:  rgb(41, 40, 40);
+  background:  rgb(17, 17, 17);
 }
 
 .TopBarNav li {
@@ -28,6 +28,7 @@ body {
 
 .Header {
   background: rgb(41, 40, 40);
+  padding: 19px;
 }
 
 .LogoSearch {
@@ -36,21 +37,21 @@ body {
   align-items: center;
 }
 
-.Logo {
-  margin: 24px 0 36px 19px;
+.PhotoArtLogo {
+  font-size: xx-large;
 }
 
 .spanLogo {
-  font-size: smaller;
+  font-size: x-small;
 }
 
 .SearchContainer {
   position: relative;
-  margin-right: 19px;
 }
 
 .SearchInput {
-  background: rgb(83, 76, 76);
+  background: #333;
+  border: 1px solid #454545;
 }
 
 .SearchIcon {
@@ -59,30 +60,60 @@ body {
   right: 8px;
 }
 
+.Navigation {
+  margin-top: 40px;
+}
+
+.Main {
+  padding: 40px 19px;
+}
+
+.SplitLine {
+  margin-top: 37px;
+  height: 11px;
+  width: 100%;
+  background: #111;
+}
 
 .HeaderNav {
   cursor: pointer;
   display: flex;  
   list-style-type: none;
   padding-left: 0;
-  margin: 0 19px;
 }
 
 .HeaderNav :last-child {
   flex-grow: 2;
 }
 
+.ReadMore {
+  text-align: right;
+}
+.ReadMore a {
+  text-decoration: none;
+  color: 
+}
 .HeaderNav li {
   text-transform: uppercase;
   margin-left: 1px;
-  background: rgb(83, 76, 76);
+  background: rgb(1c, 1c, 1c);
   padding: 10px;
 }
 
-.Intro {
-  margin: 0 19px 0 19px;
+.HeaderNav :hover {
+  color: #fff;
+  background: #000;
 }
 
-.Categories {
-  margin: 0 19px 0 19px;
+.Intro {
+  display: flex;
+}
+.SlideText {
+  background: #1a1514;
+  padding: 25px;
+  width: 300px;
+}
+
+.SlideImage img {
+  width: 100%;
 }
