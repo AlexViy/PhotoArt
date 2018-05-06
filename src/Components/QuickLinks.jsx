@@ -4,7 +4,7 @@ class QuickLinks extends Component {
   render () {
     return (
       <div className="QuickLinks">
-        <h4>Quick links</h4>
+       <p className="Heading">Quick links</p>
         <ul>
           <li><a href="#">Link text here</a></li>
           <li><a href="#">Link text here</a></li>

@@ -18,6 +18,7 @@ class Footer extends Component {
           <Contacts/>
           <Social/>
         </div>
+        <div className="SplitLine"></div>
         <Copyright/>
       </footer>
     );
